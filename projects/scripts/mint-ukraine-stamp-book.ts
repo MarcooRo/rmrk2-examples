@@ -144,7 +144,7 @@ export const createBase = async () => {
     const collectionMetadataCid = await uploadAndPinIpfsMetadata({
       mediaUri: `ipfs://ipfs/${STAMPS_FOR_UKRAINE_ASSETS_CID}/PFP.png`,
       description:
-        "Postage Stamp for Ukraine is a collation with the purpose of fundraising for the people of Ukraine who suffered from the war.\n" +
+        "Postage Stamp for Ukraine is a collection with the purpose of fundraising for the people of Ukraine who suffered from the war.\n" +
         "\n" +
         "The collection uses the RMRK2.0 standard, and consists of a book on which stamps can be collected. Each stamp is from a symbolic place of Ukraine and are limited edition. Other stamps can always be created for the purpose of the Ukrainian people.\n" +
         "\n" +
